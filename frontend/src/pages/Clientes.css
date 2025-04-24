@@ -1,0 +1,42 @@
+.clientes-container {
+    padding: 30px;
+    background-color: #fff8f8;
+    min-height: 80vh;
+  }
+  
+  .tabla-clientes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabla-clientes th,
+  .tabla-clientes td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .tabla-clientes th {
+    background-color: #ffecec;
+    color: #333;
+  }
+  
+  .btn-desactivar {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn-desactivar:hover {
+    background-color: #ff3b3b;
+  }
+  

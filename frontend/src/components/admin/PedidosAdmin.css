@@ -1,0 +1,311 @@
+.pedidos-admin-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #f8d7da;
+  padding-bottom: 16px;
+}
+
+.header-container h2 {
+  color: #e83e8c;
+  font-size: 28px;
+  margin: 0;
+}
+
+.filtros-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.filtros-container label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.filtro-select {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+  min-width: 180px;
+  cursor: pointer;
+}
+
+.asignar-repostero-container {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border-left: 4px solid #e83e8c;
+}
+
+.asignar-repostero-container h3 {
+  color: #495057;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.asignar-controles {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.repostero-select {
+  flex-grow: 1;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn-asignar {
+  background-color: #e83e8c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-asignar:hover {
+  background-color: #d63384;
+}
+
+.btn-asignar:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.instruccion-asignar {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.tabla-container {
+  overflow-x: auto;
+}
+
+.tabla-pedidos {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tabla-pedidos th {
+  background-color: #f8d7da;
+  color: #495057;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tabla-pedidos td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tabla-pedidos tr:hover {
+  background-color: #f8f9fa;
+}
+
+.fila-seleccionada {
+  background-color: #fff3e6 !important;
+  border-left: 3px solid #e83e8c;
+}
+
+.acciones-column {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-detalles {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s;
+}
+
+.btn-detalles:hover {
+  background-color: #138496;
+}
+
+.btn-estado {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s;
+}
+
+.btn-estado:hover {
+  background-color: #5a6268;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: none;
+  background: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content button:hover {
+  background-color: #e9ecef;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.estado-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.estado-pendiente {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.estado-proceso {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.estado-entregado {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.estado-cancelado {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #e83e8c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.no-pedidos {
+  text-align: center;
+  color: #6c757d;
+  padding: 24px 0;
+}
+.no-pedidos {
+  text-align: center;
+  color: #6c757d;
+  padding: 24px 0;
+}
+
+/* Estilos para los detalles del pedido en SweetAlert */
+.detalles-pedido-table {
+  margin: 15px auto;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.detalles-pedido-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.detalles-pedido-table th {
+  background-color: #f8d7da;
+  color: #495057;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.detalles-pedido-table td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.detalles-pedido-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Ajustar el tamaño del SweetAlert */
+.swal2-popup {
+  width: auto !important;
+  max-width: 600px !important;
+  padding: 20px !important;
+}
+
+.swal2-title {
+  font-size: 20px !important;
+  color: #e83e8c !important;
+}
+
+.swal2-html-container {
+  margin-top: 10px !important;
+}

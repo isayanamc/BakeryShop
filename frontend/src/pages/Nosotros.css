@@ -1,0 +1,62 @@
+.nosotros-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    color: #74412c;
+    border-radius: 18px;
+    padding: 2rem 2rem 3rem 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+
+  .nosotros-titulo {
+    font-size: 2.8rem;
+    color: #e6752e;
+    margin-bottom: 1.5rem;
+  }
+  
+  .nosotros-image-container {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nosotros-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  
+  .nosotros-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .nosotros-subtitulo {
+    font-size: 1.8rem;
+    color: #a85c5c;
+    margin-bottom: 1rem;
+  }
+  
+  .nosotros-texto {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #5e3c3c;
+  }
+  
+  .nosotros-firma {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 2.5rem;
+    color: #b85c4c;
+  }
+  
+  .nosotros-background {
+    background-color: #fff9f3;
+    padding: 4rem 1rem;
+  }
+  

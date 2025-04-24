@@ -1,0 +1,57 @@
+.pedidos-container {
+    padding: 40px;
+    background-color: #fff8f8;
+    min-height: 80vh;
+  }
+  
+  .filtro-estado {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .filtro-estado select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .tabla-pedidos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-pedidos th,
+  .tabla-pedidos td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .tabla-pedidos th {
+    background-color: #ffe6e6;
+  }
+  
+  .btn-accion {
+    margin: 2px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .btn-accion.verde {
+    background-color: #66bb6a;
+  }
+  
+  .btn-accion.rojo {
+    background-color: #e57373;
+  }
+  
+  .btn-accion.azul {
+    background-color: #64b5f6;
+  }
+  

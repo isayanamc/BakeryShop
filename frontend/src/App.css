@@ -1,0 +1,55 @@
+/* Estilos principales de la aplicación */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding-bottom: 2rem; /* Espacio para evitar que el contenido quede detrás del footer */
+  }
+  
+  /* Estilos para manejo de errores */
+  .error-container {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-container h2 {
+    color: #e53935;
+    margin-bottom: 1rem;
+  }
+  
+  .error-container p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-volver {
+    background-color: #e6752e;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-volver:hover {
+    background-color: #d86620;
+  }
+  
+  /* Animación para componentes en carga */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

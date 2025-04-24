@@ -1,0 +1,156 @@
+.perfil-container {
+    max-width: 720px; 
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fff6f2;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+  
+  .perfil-titulo {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ff5a00;
+    text-align: center;
+  }
+  
+  .perfil-datos p {
+    font-size: 17px;
+    margin: 14px 0;
+    color: #444;
+  }
+  
+  .perfil-formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .perfil-formulario input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    transition: border-color 0.3s ease;
+    background-color: #fdfdfd;
+  }
+  
+  .perfil-formulario input:focus {
+    border-color: #ff5a00;
+    outline: none;
+  }
+  
+  .botones-accion {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .perfil-boton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .perfil-boton.editar {
+    background-color: #ea9b25;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+  }
+  
+  .perfil-boton.editar:hover {
+    background-color: #bd6711;
+    transform: translateY(-1px);
+  }
+  
+  
+  .perfil-boton.guardar {
+    background-color: #dd813e;
+    color: white;
+  }
+  
+  .perfil-boton.cancelar {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .perfil-boton:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+  }
+  
+  .perfil-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 100%;
+    padding: 40px 10%;
+    box-sizing: border-box;
+  }
+  
+  .pedidos-box {
+    background-color: #fff8f3;
+  }
+  
+  .sin-pedidos {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sin-pedidos p {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .pedido-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+  }
+  
+  .pedido-cancelado {
+    background-color: #ffeaea;
+    border: 1px solid #ff5a6a;
+  }
+  
+  .texto-cancelado {
+    color: #c62828;
+    font-style: italic;
+  }
+  
+  .btn-checkout {
+    margin-top: 0.5rem;
+    background-color: #FF5A6A;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn-checkout:hover {
+    background-color: #e04b5a;
+  }
+  

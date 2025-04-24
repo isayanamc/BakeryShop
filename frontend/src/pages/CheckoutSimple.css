@@ -1,0 +1,62 @@
+.checkout-simple-wrapper {
+  max-width: 500px;
+  margin: 3rem auto;
+  background-color: #fff8f1; /* crema claro */
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.checkout-simple-wrapper h1 {
+  font-size: 2rem;
+  color: #ff914d;
+  margin-bottom: 2rem;
+}
+
+.checkout-simple-wrapper label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  color: #444;
+  text-align: left;
+}
+
+.checkout-simple-wrapper select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ffceab;
+  border-radius: 12px;
+  background-color: white;
+  margin-bottom: 2rem;
+  transition: 0.3s ease;
+}
+
+.checkout-simple-wrapper select:focus {
+  outline: none;
+  border-color: #ffa366;
+  box-shadow: 0 0 0 3px rgba(255, 145, 77, 0.2);
+}
+
+.btn-confirmar {
+  background-color: #ff914d;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.btn-confirmar:hover {
+  background-color: #ff7a26;
+}
+
+.btn-confirmar:disabled {
+  background-color: #ffc9a0;
+  cursor: not-allowed;
+}

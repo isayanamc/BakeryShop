@@ -1,0 +1,85 @@
+.usuarios-container {
+  padding: 30px;
+  background-color: #fffafc;
+  min-height: 80vh;
+}
+
+.tabla-usuarios {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-usuarios th,
+.tabla-usuarios td {
+  border: 1px solid #ffd2dc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-usuarios th {
+  background-color: #ffe0e6;
+}
+
+.btn-crear,
+.btn-asignar,
+.btn-desactivar {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+}
+
+.btn-crear {
+  background-color: #FF5A6A;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.btn-crear:hover {
+  background-color: #e04856;
+}
+
+.btn-asignar {
+  background-color: #5ac8ff;
+  color: white;
+}
+
+.btn-asignar:hover {
+  background-color: #4bb3e9;
+}
+
+.btn-desactivar {
+  background-color: #b73a3a;
+  color: white;
+}
+
+.btn-desactivar:hover {
+  background-color: #992f2f;
+}
+
+.asignar-rol-box {
+  margin-top: 40px;
+  background-color: #fff0f3;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffc0cb;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.asignar-rol-box h3 {
+  margin-bottom: 10px;
+}
+
+.asignar-rol-box input,
+.asignar-rol-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ffd1dc;
+}

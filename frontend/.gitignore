@@ -1,0 +1,17 @@
+# Java / Spring Boot
+target/
+*.class
+*.log
+
+# Node / React
+node_modules/
+build/
+
+# Entorno
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.iml
